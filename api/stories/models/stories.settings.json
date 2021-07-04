@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stories",
+  "info": {
+    "name": "stories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "date_end": {
+      "type": "date"
+    }
+  }
+}
